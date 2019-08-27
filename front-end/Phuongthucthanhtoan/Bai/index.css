@@ -60,12 +60,13 @@
 .duongvien {
 	box-shadow: 3px;
 	border-bottom: 1px solid #B2A7A7;
+	display: block;
 }
 
 h4{
-	color: #504B4B !important;
+	color: #9B8C8C !important;
 	font-weight: bold !important;
-    font-size: 18px !important;
+    font-size: 20px !important;
 }
 
 .giaohang {
@@ -100,4 +101,47 @@ h4{
 }
 .divtrai button {
 	float: right;
+}
+
+.bang2 {
+	font-size: 14px;
+}
+.chuvang {
+	color: #FFAE00;
+	font-size: 12px;
+}
+.chu1 {
+	cursor:not-allowed ;
+}
+
+input[type=checkbox]
+{
+  transform: scale(1.5);
+  padding: 5px;
+  color: blue;
+  cursor: pointer;
+  background: #3A50C0;
+    box-shadow: 
+        0 3px 5px rgba(0,0,0,0.25),
+        inset 0 1px 0 rgba(255,255,255,0.3),
+        inset 0 -5px 5px rgba(100,100,100,0.1),
+        inset 0 5px 5px rgba(255,255,255,0.3);
+}
+input[type=radio]:checked,input[type=checkbox]:checked
+{
+  color: blue;
+  cursor: pointer;
+   background: #25d025; /* Fallback */
+    background: radial-gradient(40% 35%, #FFFFFF, #E81C1C 60%);
+    box-shadow:
+        inset 0 3px 5px 1px rgba(0,0,0,0.1),
+        0 1px 0 rgba(255,255,255,0.4),
+        0 0 10px 2px rgba(0, 210, 0, 0.5);
+}
+input[type=radio]
+{
+  transform: scale(1.5);
+  color: blue;
+  cursor: pointer;
+
 }
