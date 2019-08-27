@@ -1,5 +1,6 @@
 * {
 	font-family: 'Time New..'
+	font-size: 12px;
 }
 .dot1 {
 	margin-left: 62px;
@@ -82,6 +83,9 @@ h4{
 	border-radius: 3px;
 }
 
+.bang2 {
+	width: 95%;
+}
 .cot1 {
 	position: relative;
 }
@@ -144,4 +148,13 @@ input[type=radio]
   color: blue;
   cursor: pointer;
 
+}
+
+.p02,.p04 {
+	display: none;
+}
+@media screen(max-width: 576px;) {
+	.cc:after,.cc:before {
+		content: '<-';
+	}
 }
