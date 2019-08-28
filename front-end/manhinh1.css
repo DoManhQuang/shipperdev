@@ -1,0 +1,255 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sengoeui-light; }
+
+.form-main {
+  width: 1170px;
+  margin: auto; }
+  .form-main b {
+    font-size: 15px;
+    font-family: sengoeui-light;
+    color: black;
+    padding-left: 10px; }
+  .form-main p {
+    font-size: 15px;
+    font-family: sengoeui-light;
+    color: black;
+    padding-left: 10px; }
+  .form-main a {
+    font-size: 15px;
+    font-family: sengoeui-light;
+    color: #007FF0;
+    text-decoration: none; }
+  .form-main .cover-form {
+    width: 1170px;
+    background-color: #f7f7f7; }
+  .form-main form {
+    width: 60%;
+    margin: auto;
+    display: block;
+    flex-wrap: wrap;
+    padding: 20px 0; }
+    .form-main form .check {
+      width: 70%;
+      margin-left: 30%;
+      font-size: 15px;
+      font-family: sengoeui-light;
+      font-style: italic; }
+      .form-main form .check > input {
+        margin-right: 10px; }
+    .form-main form .group {
+      display: flex;
+      flex-wrap: wrap;
+      height: auto;
+      line-height: 30px;
+      margin-top: 10px;
+      font-size: 15px;
+      font-family: sengoeui-light;
+      font-weight: bolder;
+      color: black; }
+      .form-main form .group label {
+        font-size: 15px;
+        font-family: sengoeui-light;
+        color: black;
+        width: 30%; }
+      .form-main form .group > input {
+        width: 70%;
+        height: 40px;
+        padding-left: 5px;
+        border: 0;
+        border-radius: 10px; }
+        .form-main form .group > input:focus {
+          border-color: #80bdff;
+          outline: 1px;
+          box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
+      .form-main form .group > select {
+        font-size: 15px;
+        font-family: sengoeui-light;
+        height: 40px;
+        color: black;
+        width: 70%;
+        padding-left: 5px;
+        padding: 0;
+        border: 0;
+        border-radius: 10px; }
+        .form-main form .group > select:focus {
+          border-color: #80bdff;
+          outline: 1px;
+          box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
+      .form-main form .group textarea {
+        font-size: 15px;
+        font-family: sengoeui-light;
+        font-style: italic;
+        width: 50%;
+        padding-left: 5px;
+        padding-right: 5px; }
+        .form-main form .group textarea:focus {
+          border-color: #80bdff;
+          outline: 1px;
+          box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
+      .form-main form .group .radio-button {
+        margin-right: 30px;
+        font-weight: normal; }
+        .form-main form .group .radio-button input {
+          width: auto;
+          margin-right: 10px; }
+      .form-main form .group .batloi {
+        width: 70%;
+        color: red;
+        font-size: 12px;
+        margin-left: 30%;
+        padding-left: 10px; }
+    .form-main form .btn {
+      width: 70%;
+      padding: 0;
+      margin-left: 30%;
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-between; }
+      .form-main form .btn button {
+        width: 45%;
+        font-size: 15px;
+        font-family: sengoeui-light;
+        text-align: center;
+        height: 50px;
+        line-height: 50px;
+        background-image: -webkit-linear-gradient(top, #00b6f0 0%, white 100%);
+        color: black;
+        padding: 0;
+        border: 0;
+        transition: 0.3s; }
+        .form-main form .btn button:hover {
+          background-image: -webkit-linear-gradient(top, white 0%, #00b6f0 100%); }
+
+.btn-primary {
+  color: #fff;
+  background-color: white;
+  border: 0; }
+  .btn-primary:hover {
+    background-color: white;
+    border: 0; }
+
+a:not([href]):not([tabindex]) {
+  color: #007FF0;
+  text-decoration: none; }
+
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto; }
+  .banner .text {
+    width: 60%; }
+
+.form-element {
+  width: 1170px;
+  display: block;
+  margin: auto;
+  font-size: 17px;
+  font-family: sengoeui-light; }
+  .form-element > p {
+    margin: 0;
+    padding-left: 10px; }
+  .form-element .row-element {
+    padding: 5px;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .form-element .row-element .col-element .panel-body {
+      border: 2px solid #00b6f0;
+      padding: 20px;
+      margin-top: 20px;
+      box-sizing: border-box; }
+      .form-element .row-element .col-element .panel-body p {
+        margin: 10px; }
+        .form-element .row-element .col-element .panel-body p button {
+          border: 0;
+          width: auto;
+          padding: 5px 15px;
+          margin-top: 10px;
+          font-size: 15px;
+          font-family: sengoeui-light;
+          font-weight: bolder; }
+        .form-element .row-element .col-element .panel-body p .send {
+          margin-right: 20px;
+          background-color: #00b6f0; }
+        .form-element .row-element .col-element .panel-body p .edit {
+          background-color: #f7f7f7; }
+      .form-element .row-element .col-element .panel-body .name {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; }
+        .form-element .row-element .col-element .panel-body .name a {
+          color: #00b6f0; }
+
+@media only screen and (max-width: 1170px) {
+  .form-main {
+    width: 100%; }
+    .form-main .cover-form {
+      width: 100%; }
+      .form-main .cover-form form {
+        padding: 10px;
+        width: 100%; }
+        .form-main .cover-form form textarea {
+          width: 70%;
+          margin: auto; }
+
+  .form-element {
+    width: 100%; } }
+@media (max-width: 576px) {
+  .form-main p a {
+    padding: 0; }
+  .form-main .cover-form form {
+    position: relative; }
+    .form-main .cover-form form:before {
+      content: 'Add new adrress';
+      font-size: 15px;
+      font-family: sengoeui-light;
+      font-weight: bolder;
+      position: absolute;
+      text-align: center;
+      top: 0;
+      left: 0;
+      background-color: white;
+      width: 100%;
+      z-index: 3; }
+    .form-main .cover-form form .label {
+      display: none; }
+    .form-main .cover-form form input {
+      width: 90%;
+      margin: auto; }
+    .form-main .cover-form form select {
+      width: 90%;
+      margin: auto; }
+    .form-main .cover-form form textarea {
+      width: 90%;
+      margin: auto; }
+    .form-main .cover-form form .batloi {
+      width: 90%;
+      margin: auto;
+      text-align: center; }
+    .form-main .cover-form form .group {
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap; }
+      .form-main .cover-form form .group .rb {
+        width: 90%;
+        margin: auto; }
+    .form-main .cover-form form .check {
+      width: 90%;
+      margin: 10px auto; }
+      .form-main .cover-form form .check > input {
+        width: auto;
+        margin-right: 5px; }
+    .form-main .cover-form form .btn {
+      width: 90%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between; }
+      .form-main .cover-form form .btn .button {
+        width: 40%; } }
+
+/*# sourceMappingURL=manhinh1.css.map */

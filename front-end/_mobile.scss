@@ -1,0 +1,106 @@
+@media only screen and (max-width: 1170px) {
+	.form-main{
+		width: 100%;
+		.cover-form{
+			width: 100%;
+			form{
+				padding: 10px;
+				width: 100%;
+				textarea{
+					width: 70%;
+					margin:auto;
+				}
+			}
+			// end form
+		}
+		// end cover-form
+	}
+	// end form-main
+	.form-element{
+		width: 100%;
+		
+	}
+}
+// end media <1170px
+
+@media (max-width: 576px) {
+	.form-main{
+		p{
+			a{
+				padding:0;
+			}
+		}
+		.cover-form{
+			form{
+				position: relative;
+				&:before{
+					content: 'Add new adrress';
+					font:{
+						size: $cochuto;
+						family: $kieuchu;
+						// style: italic;
+						weight: bolder;
+					}
+					position: absolute;
+					text-align: center;
+					top:0;	left: 0;
+					background-color: white;
+					width: 100%;
+					z-index: 3;
+				}
+
+				.label{
+					display: none;
+				}
+				input{
+					width: 90%;
+					margin:auto;
+				}
+				select{
+					width: 90%;
+					margin:auto;
+				}
+				textarea{
+					width: 90%;
+					margin:auto;
+				}
+				.batloi{
+					width: 90%;
+					margin:auto;
+					text-align: center;
+				}
+				.group{
+					margin-top:20px;
+					display: flex;
+					flex-wrap: wrap;
+					.rb{
+						width: 90%;
+						margin:auto;
+					}
+				}
+				.check{
+					width: 90%;
+					margin: 10px auto;
+					// margin: 10%;
+					>input{
+						width: auto;
+						margin-right: 5px;
+					}
+				}
+				.btn{
+					width: 90%;
+					margin: auto;
+					display: flex;
+					justify-content: space-between;
+					.button{
+						width: 40%;
+					}
+				}
+			}
+			// end form
+		}
+		// end cover-form
+	}
+	// end form-main
+}
+// end media mobile

@@ -1,0 +1,263 @@
+// chu
+$kieuchu: sengoeui-light;
+$cochuto: 15px;
+$cochuvua: 14px;
+$cochunho: 13px;
+$mauchu2: white;
+$mauchu1: black;
+
+// nen
+$maunen: #f7f7f7;
+$chieungang: 1170px;
+
+//mau 
+$maunut1: #00b6f0;
+$maunut2: white; 
+
+@mixin chu() {
+	font:{
+		size: $cochuto;
+		family:$kieuchu;
+	}
+	color: $mauchu1;
+	padding-left: 10px;
+}
+
+body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: $kieuchu;
+}
+.form-main{
+	width: $chieungang;
+	margin:auto;
+	b{	@include chu();	}
+	p{	@include chu();	}
+	a{
+		font:{
+			size: $cochuto;
+			family:$kieuchu;
+		}
+		color:#007FF0;
+		text-decoration: none;
+	}
+.cover-form{
+	width: $chieungang;
+	background-color: $maunen;
+}
+form{
+	width: 60%;
+	margin:auto;
+	display: block;
+	flex-wrap: wrap;
+	padding: 20px 0;
+		.check{
+			width: 70%;
+			margin-left: 30%;
+			font:{
+				size: $cochuto;
+				family: $kieuchu;
+				style:italic;
+			}
+			>input{
+				margin-right: 10px;
+			}
+		}
+		.group{
+			display: flex;
+			flex-wrap: wrap;
+			height: auto;
+			line-height: 30px;
+			margin-top: 10px;
+			font:{
+				size: $cochuto;
+				family: $kieuchu;
+				weight: bolder;
+			}
+			color: $mauchu1;
+			label{
+				font-size: $cochuto;
+				font-family: $kieuchu;
+				color: $mauchu1;
+				width: 30%;
+			}
+			>input{
+				width: 70%;
+				height: 40px;
+				padding-left: 5px;
+				border:0;
+				border-radius: 10px;
+				&:focus{
+				    border-color: #80bdff;
+				    outline: 1px;
+				    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+				}
+			}
+			>select{
+				font:{
+					size: $cochuto;
+					family: $kieuchu;
+					// weight: bolder;
+				}
+				height: 40px;
+				color: $mauchu1;
+				width: 70%;
+				padding-left: 5px;
+				padding: 0;
+				border:0;
+				border-radius: 10px;
+				&:focus{
+				    border-color: #80bdff;
+				    outline: 1px;
+				    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+				}
+			}
+			textarea{
+				font:{
+					size: $cochuto;
+					family: $kieuchu;
+					style: italic;
+				}
+				width: 50%;
+				padding-left: 5px;
+				padding-right: 5px;
+				&:focus{
+					border-color: #80bdff;
+					outline: 1px;
+					box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+				}
+
+			}
+			.radio-button{
+				margin-right: 30px;
+				font-weight: normal;
+				input{
+					width: auto;
+					margin-right: 10px;
+				}
+			}	
+			.batloi{
+				width: 70%;
+				color: red;
+				font-size: 12px;
+				margin-left: 30%;
+				padding-left: 10px;
+			}		
+		}
+		// end group
+		
+		// end check
+		.btn{
+			width: 70%;
+			padding: 0;
+			margin-left: 30%;
+			margin-top: 10px;
+			display: flex;
+			justify-content: space-between;
+			button{
+				width: 45%;
+				font-size: 15px;
+				font-family: $kieuchu;
+				text-align: center;
+				height: 50px;
+				line-height: 50px;
+				background-image: -webkit-linear-gradient(top, $maunut1 0%, $maunut2 100%);
+				color: black;
+				padding: 0;
+				border: 0;
+				transition: 0.3s;
+				&:hover{
+					background-image: -webkit-linear-gradient(top, $maunut2 0%, $maunut1 100%);
+				}
+			}
+		}
+	}
+	// end form
+}
+.btn-primary {
+	color: #fff;
+    background-color: white;
+	border: 0; 
+	&:hover{
+		background-color: white;
+		border: 0; 
+	}
+}
+a:not([href]):not([tabindex]) {
+    color: #007FF0;
+    text-decoration: none;
+}
+
+.banner{
+	display: flex;
+	flex-wrap: wrap;
+	margin:auto;
+	.text{
+		width: 60%;
+	}
+}
+
+.form-element{
+	width: $chieungang;
+	// padding: 5px;
+	display: block;
+	margin:auto;
+	font:{
+		size: 17px;
+		family: $kieuchu;
+		// weight: bolder;
+	}
+	>p{
+		margin: 0;
+		padding-left: 10px;
+	}
+	.row-element{
+		padding:5px;
+		margin: 0;
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		.col-element{
+			.panel-body{
+				border:2px solid $maunut1;
+				padding: 20px;
+				margin-top: 20px;
+				box-sizing: border-box;
+				p{					
+					margin:10px;
+					button{
+						border:0;
+						width: auto;
+						padding: 5px 15px;
+						margin-top: 10px;
+						font:{
+							size: 15px;
+							family: $kieuchu;
+							weight: bolder;
+						}						
+					}
+					.send{
+						margin-right: 20px;
+						background-color: $maunut1;
+					}
+					.edit{
+						background-color: $maunen;
+					}
+				}
+				.name{
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: space-between;
+					a{
+						color: $maunut1;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+@import "mobile";

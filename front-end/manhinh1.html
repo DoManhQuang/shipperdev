@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Thông tin giao hang</title>
+	
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="manhinh1.css">
+
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">	
+</head>
+<body>
+	
+	<div class="form-element">
+		<p>
+			<b>2. Địa chỉ giao hàng</b><br>
+			<span>Chọn địa chỉ giao hàng có sẵn bên dưới.</span></p>
+		<form>
+			<div class="row row-element">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-element">
+					<div class="panel-body">
+						<p class="name"><b>anh nguyen</b> <a href="">Mặc định</a></p>
+						<p class="address" >
+						Địa chỉ: Phường Đống Mác, Quận Hai Bà Trưng, Hà Nội            </p>
+						<p class="address">
+						Việt Nam            </p>
+						<p class="phone">Điện thoại: 0386876699</p>
+						<p class="action">
+							<button type="button" class="send" name="" id="">Giao đến địa chỉ này</button>
+							<button type="button" class="edit" name="" id="">Sửa</button>
+						</p>					
+					</div>	
+				</div>
+				<!-- end col-el -->
+				<div class="col-lg-6 col-md-6 col-sm-6 col-element">
+						<div class="panel-body">
+							<p class="name"><b>anh nguyen</b><a href="">Mặc định</a></p>
+							<p class="address" >
+							Địa chỉ: Phường Đống Mác, Quận Hai Bà Trưng, Hà Nội            </p>
+							<p class="address">
+							Việt Nam            </p>
+							<p class="phone">Điện thoại: 0386876699</p>
+							<p class="action">
+								<button type="button" class="send" name="" id="">Giao đến địa chỉ này</button>
+								<button type="button" class="edit" name="" id="">Sửa</button>
+							</p>
+						</div>	
+				</div>
+				<!-- end col-el -->
+			</div>
+			<!-- end row-el -->
+		</form>
+		<!-- end form -->
+	</div>
+	<!-- end form-element -->
+
+	<div class="form-main">
+		<p dissable>Bạn muốn giao hàng đến địa chỉ khác? <a class="btn btn-primary" data-toggle="collapse" data-target="#form">Thêm địa chỉ giao hàng mới </a></p>				
+		<div id="form" class="collapse cover-form">
+			<form id="infor">
+				<div class="group">
+					<label class="label">Họ tên</label>
+					<input type="text" id="txthoten" name="txthoten" placeholder="Nhập họ tên..." >
+					<div id="errorname" class="batloi"></div>
+				</div>
+				<div class="group">
+					<label class="label">Điện thoại di động</label>
+					<input type="text" id="txtsdt" name="txtsdt" placeholder="Nhập số điện thoại..">
+					<div id="errorphone" class="batloi"></div>
+				</div>
+				<div class="group">
+					<label class="label">Tỉnh/Thành phố</label>
+					<select name="cbttp" id="cbttp" class="ttp">
+						<option value="">Chọn Tỉnh/Thành phố</option>
+						<option value="294">Hồ Chí Minh</option>
+						<option value="297">Hà Nội</option>
+						<option value="291">Đà Nẵng</option>
+						<option value="278">An Giang</option>
+						<option value="280">Bà Rịa - Vũng Tàu</option>
+						<option value="282">Bắc Giang</option>
+						<option value="281">Bắc Kạn</option>
+						<option value="279">Bạc Liêu</option>
+						<option value="283">Bắc Ninh</option>
+						<option value="284">Bến Tre</option>
+						<option value="285">Bình Dương</option>
+						<option value="286">Bình Phước</option>
+						<option value="287">Bình Thuận</option>
+						<option value="316">Bình Định</option>
+						<option value="289">Cà Mau</option>
+						<option value="290">Cần Thơ</option>
+						<option value="288">Cao Bằng</option>
+						<option value="293">Gia Lai</option>
+						<option value="295">Hà Giang</option>
+						<option value="296">Hà Nam</option>
+						<option value="299">Hà Tĩnh</option>
+						<option value="300">Hải Dương</option>
+						<option value="301">Hải Phòng</option>
+						<option value="319">Hậu Giang</option>
+						<option value="302">Hoà Bình</option>
+						<option value="320">Hưng Yên</option>
+						<option value="321">Khánh Hòa</option>
+						<option value="322">Kiên Giang</option>
+						<option value="323">Kon Tum</option>
+						<option value="304">Lai Châu</option>
+						<option value="306">Lâm Đồng</option>
+						<option value="305">Lạng Sơn</option>
+						<option value="324">Lào Cai</option>
+						<option value="325">Long An</option>
+						<option value="326">Nam Định</option>
+						<option value="327">Nghệ An</option>
+						<option value="307">Ninh Bình</option>
+						<option value="328">Ninh Thuận</option>
+						<option value="329">Phú Thọ</option>
+						<option value="308">Phú Yên</option>
+						<option value="309">Quảng Bình</option>
+						<option value="310">Quảng Nam</option>
+						<option value="311">Quảng Ngãi</option>
+						<option value="330">Quảng Ninh</option>
+						<option value="312">Quảng Trị</option>
+						<option value="313">Sóc Trăng</option>
+						<option value="331">Sơn La</option>
+						<option value="332">Tây Ninh</option>
+						<option value="333">Thái Bình</option>
+						<option value="334">Thái Nguyên</option>
+						<option value="335">Thanh Hóa</option>
+						<option value="303">Thừa Thiên Huế</option>
+						<option value="336">Tiền Giang</option>
+						<option value="314">Trà Vinh</option>
+						<option value="315">Tuyên Quang</option>
+						<option value="337">Vĩnh Long</option>
+						<option value="338">Vĩnh Phúc</option>
+						<option value="339">Yên Bái</option>
+						<option value="292">Đắk Lắk</option>
+						<option value="340">Đắk Nông</option>
+						<option value="341">Điện Biên</option>
+						<option value="317">Đồng Nai</option>
+						<option value="318">Đồng Tháp</option></select>
+						<div id="errorcity" class="batloi"></div>
+					</div>					
+					<div class="group">
+						<label class="label">Quận huyện</label>
+						<select name="cbqh" id="cbqh" class="ttp">
+							<option value="">Chọn Quận/Huyện</option>
+						</select>
+						<div id="errordistrict" class="batloi"></div>
+					</div>
+					<div class="group">
+						<label class="label">Phường xã</label>
+						<select name="cbpx" id="cbpx" class="ttp">
+							<option>Chọn Phường/Xã</option>
+						</select>
+						<div id="errorward" class="batloi"></div>				
+					</div>
+					<div class="group">
+						<label class="label">Địa chỉ</label> 
+						<textarea type="text" name="txtdc" id="txtdc" placeholder="Ví dụ: 52, đường Xuân Phương phố Nhổn Nam Từ Liêm..." align="top"></textarea>
+						<div id="errorplace" class="batloi"></div>
+					</div>
+					<div class="group">
+						<label class="rb">Loại địa chỉ</label>
+						<label class="rb">
+							<div class="radio-button">
+								<input type="radio" name="rbldc" value="">Nhà riêng/Chung cư
+							</div>
+						</label>
+						<label class="rb">
+							<div class="radio-button">
+								<input type="radio" name="rbldc" value="">Cơ quan/Công ty	
+							</div>
+						</label>
+					</div>
+					<div class="check">
+						<input type="checkbox" name="cb" value="">(Sử dụng địa chỉ này làm mặc định)
+					</div>
+					<div class="btn">
+						<button type="button" name="btnhuy">Hủy bỏ </button>
+						<button type="submit" name="btnsend">Giao đến địa chỉ này </button>	
+					</div>				
+				</form>
+				<!-- end form -->
+			</div>
+			<!-- end cover form -->
+	</div>
+	<!-- end form main -->
+
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+	<!-- link js -->
+	<script src="manhinh1.js"></script>
+</body>
+</html>	
