@@ -5,7 +5,7 @@ body {
   font-family: sengoeui-light; }
 
 .form-main {
-  width: 1170px;
+  width: 1140px;
   margin: auto; }
   .form-main b {
     font-size: 15px;
@@ -23,7 +23,7 @@ body {
     color: #007FF0;
     text-decoration: none; }
   .form-main .cover-form {
-    width: 1170px;
+    width: 1140px;
     background-color: #f7f7f7; }
   .form-main form {
     width: 60%;
@@ -135,15 +135,8 @@ a:not([href]):not([tabindex]) {
   color: #007FF0;
   text-decoration: none; }
 
-.banner {
-  display: flex;
-  flex-wrap: wrap;
-  margin: auto; }
-  .banner .text {
-    width: 60%; }
-
 .form-element {
-  width: 1170px;
+  width: 1140px;
   display: block;
   margin: auto;
   font-size: 17px;
@@ -185,7 +178,122 @@ a:not([href]):not([tabindex]) {
         .form-element .row-element .col-element .panel-body .name a {
           color: #00b6f0; }
 
-@media only screen and (max-width: 1170px) {
+.cover-banner {
+  padding: 0;
+  width: 1140px; }
+  .cover-banner .row-ban {
+    display: flex;
+    flex-wrap: wrap; }
+    .cover-banner .row-ban .col-left {
+      padding: 0; }
+      .cover-banner .row-ban .col-left img {
+        width: 100%; }
+    .cover-banner .row-ban .col-center {
+      display: flex;
+      padding: 0;
+      text-align: center; }
+      .cover-banner .row-ban .col-center .row {
+        width: 100%;
+        height: 150px;
+        position: relative;
+        align-content: center;
+        justify-content: center; }
+        .cover-banner .row-ban .col-center .row .left {
+          margin: auto;
+          padding: 0; }
+          .cover-banner .row-ban .col-center .row .left > span {
+            font-size: 10px;
+            font-family: sengoeui-light;
+            display: block;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 50%;
+            background-color: #00b6f0;
+            margin: auto;
+            text-align: center; }
+          .cover-banner .row-ban .col-center .row .left:after {
+            content: '';
+            position: absolute;
+            top: 65px;
+            right: 0;
+            width: 45%;
+            height: 10px;
+            background-color: #00b6f0;
+            z-index: 0; }
+        .cover-banner .row-ban .col-center .row .center {
+          margin: 10px 0; }
+          .cover-banner .row-ban .col-center .row .center:after {
+            content: '';
+            position: absolute;
+            top: 65px;
+            left: 0;
+            width: 45%;
+            height: 10px;
+            background-color: #00b6f0;
+            z-index: 0; }
+          .cover-banner .row-ban .col-center .row .center:before {
+            content: '';
+            position: absolute;
+            top: 65px;
+            right: 0;
+            width: 45%;
+            height: 10px;
+            background-color: #00b6f0;
+            z-index: 0; }
+          .cover-banner .row-ban .col-center .row .center > span {
+            font-size: 10px;
+            font-family: sengoeui-light;
+            display: block;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 50%;
+            background-color: #00b6f0;
+            margin: auto;
+            text-align: center; }
+        .cover-banner .row-ban .col-center .row .right {
+          margin: auto; }
+          .cover-banner .row-ban .col-center .row .right:after {
+            content: '';
+            position: absolute;
+            top: 65px;
+            left: 0;
+            width: 45%;
+            height: 10px;
+            background-color: #00b6f0;
+            z-index: 0; }
+          .cover-banner .row-ban .col-center .row .right > span {
+            font-size: 10px;
+            font-family: sengoeui-light;
+            display: block;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 50%;
+            background-color: #00b6f0;
+            margin: auto;
+            text-align: center; }
+        .cover-banner .row-ban .col-center .row p {
+          display: block;
+          width: 100%;
+          margin: 10px;
+          font-size: 20px;
+          font-family: sengoeui-light; }
+    .cover-banner .row-ban .col-right {
+      padding: 0; }
+      .cover-banner .row-ban .col-right img {
+        width: 100%; }
+
+@media only screen and (max-width: 1140px) {
+  .cover-banner {
+    width: 100%; }
+    .cover-banner .row-ban {
+      width: 100%; }
+      .cover-banner .row-ban .col-center {
+        width: 100%;
+        margin: auto; }
+
   .form-main {
     width: 100%; }
     .form-main .cover-form {

@@ -1,4 +1,17 @@
-@media only screen and (max-width: 1170px) {
+@media only screen and (max-width: 1140px) {
+	.cover-banner{
+		width: 100%;
+		.row-ban{
+			// display: block;
+			width: 100%;
+			.col-center{
+				width: 100%;
+				margin: auto;
+			}
+		}
+	}
+
+
 	.form-main{
 		width: 100%;
 		.cover-form{
@@ -18,7 +31,6 @@
 	// end form-main
 	.form-element{
 		width: 100%;
-		
 	}
 }
 // end media <1170px
@@ -36,8 +48,8 @@
 				&:before{
 					content: 'Add new adrress';
 					font:{
-						size: $cochuto;
-						family: $kieuchu;
+						size: 15px;
+						family: sengoeui-light;
 						// style: italic;
 						weight: bolder;
 					}
