@@ -153,8 +153,35 @@ input[type=radio]
 .p02,.p04 {
 	display: none;
 }
+
+.buttondatmua {
+	width: 360px;
+    height: 50px;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    outline-color: #ccc;
+    background: -webkit-gradient(linear,left top,left bottom,from(#ef3959),to(#d72041));
+    background: linear-gradient(#ef3959,#d72041);
+  
+    border-radius: 3px;
+}
+
+.buttondatmua:hover {
+	opacity: 0.9;
+  transistion: all .5s linear;
+   background: -webkit-gradient(linear,left top,left bottom,from(#),to(#d72041));
+    background: linear-gradient(#ef3959,#d72041);
+}
+
+.Thevisa img {
+	/*border-style:dashed;*/
+	margin: 2px;
+	padding: 2px;
+}
 @media screen(max-width: 576px;) {
 	.cc:after,.cc:before {
 		content: '<-';
 	}
 }
+
