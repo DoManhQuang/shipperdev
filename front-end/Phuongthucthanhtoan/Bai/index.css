@@ -177,11 +177,18 @@ input[type=radio]
 .Thevisa img {
 	/*	*/
 	margin: 2px;
-	padding: 2px;
+
 }
-@media screen(max-width: 576px;) {
+@media screen and (max-width: 576px) {
 	.cc:after,.cc:before {
 		content: '<-';
 	}
+	.colnho {
+		width: 100%;
+	}
+	.Thevisa {
+		margin-left: 10px;
+	}
 }
+
 
