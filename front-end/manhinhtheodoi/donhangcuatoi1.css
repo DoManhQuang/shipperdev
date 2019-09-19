@@ -1,0 +1,228 @@
+.wrap {
+    min-height: 500px;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    background: #f4f4f4;
+}
+.container-full {
+    width: 1270px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.content-right {
+    width: 975px;
+    float: left;
+    margin:20px 5px 10px 20px;
+    position: relative;
+}
+
+.wrap h1.have-margin {
+    margin-bottom: 15px;
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    color: #242424;
+}
+.wrap .account-order-detail .other-1, .wrap .account-order-detail .other-2 {
+    width: 100%;
+    margin-right: 0;
+}
+.wrap .account-order-detail .address-1, .wrap .account-order-detail .address-2, .wrap .account-order-detail .other-1, .wrap .account-order-detail .other-2, .wrap .account-order-detail .payment-1, .wrap .account-order-detail .payment-2 {
+    width: 32.6%;
+    display: block;
+    vertical-align: top;
+    margin-top: 20px;
+    float: left;
+    margin-right: 1%;
+}
+.wrap h1:after, .wrap h1:before {
+    display: table;
+    content: "";
+    clear: both;
+}
+.wrap .account-order-detail.follow .padding {
+    padding: 5px 20px;
+    overflow: hidden;
+}
+.wrap .account-order-detail.follow ul.checkout-bar {
+    background-size: 35px 35px;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    height: 10px;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    margin: 80px 0;
+}
+.wrap .account-order-detail.follow ul.checkout-bar li {
+    display: inline-block;
+    margin: 50px 0 0;
+    padding: 0;
+    width: 130px;
+}
+.wrap .account-order-detail.follow ul.checkout-bar li {
+    color: #202020;
+    font-size: 13px;
+    font-weight: 400;
+    position: relative;
+}
+.wrap .account-order-detail .address-1 h3, .wrap .account-order-detail .address-2 h3, .wrap .account-order-detail .other-1 h3, .wrap .account-order-detail .other-2 h3, .wrap .account-order-detail .payment-1 h3, .wrap .account-order-detail .payment-2 h3 {
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-family: Roboto;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #242424;
+}
+.wrap .account-order-detail.follow .list-update-status {
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #dadada;
+    margin: 15px 0;
+    font-size: 13px;
+    color: #202020;
+}
+.wrap .account-order-detail.follow .list-update-status .item.title {
+    background-color: #f1f1f1;
+    padding: 12px 15px;
+}
+.wrap .account-order-detail.follow .list-update-status .item {
+    padding: 15px;
+    overflow: hidden;
+    position: relative;
+    border-bottom: solid 1px #dadada;
+}
+.wrap .account-order-detail.follow .list-update-status .item:last-child {
+    border: none;
+}
+.wrap .account-order-detail.follow .product {
+    margin: 10px auto;
+    overflow: hidden;
+    position: relative;
+    width: 50%;
+    float: left;
+}
+.wrap .account-order-detail.follow .product img {
+    margin-right: 30px;
+    width: 80px;
+    float: left;
+}
+.img-responsive {
+    display: block;
+    height: auto;
+}
+.img-responsive, .img-thumbnail, .table, label {
+    max-width: 100%;
+}
+hr, img {
+    border: 0;
+}
+img {
+    vertical-align: middle;
+}
+.wrap .account-order-detail.follow .product .product-info {
+    color: #202020;
+    font-size: 12px;
+    font-weight: 300;
+    padding-top: 30px!important;
+}
+.wrap .account-order-detail.follow .product .product-info a.name {
+    font-size: 14px;
+    color: #202020;
+}
+.wrap .account-order-detail.follow .product .product-info .ncc {
+    margin: 8px 0;
+    font-size: 12px;
+}
+.wrap .account-order-detail .other-1, .wrap .account-order-detail .other-2 {
+    width: 100%;
+    margin-right: 0;
+}
+.wrap .account-order-detail {
+    overflow: hidden;
+    font-size: 0;
+    margin-bottom: 20px;
+}
+.wrap .account-order-detail .address-1>div, .wrap .account-order-detail .address-2>div, .wrap .account-order-detail .other-1>div, .wrap .account-order-detail .other-2>div, .wrap .account-order-detail .payment-1>div, .wrap .account-order-detail .payment-2>div {
+    padding: 5px 10px;
+    background: #fff;
+    border-radius: 4px;
+    min-height: 110px;
+    line-height: 1.38;
+}
+.wrap .account-order-detail.follow ul.checkout-bar li.completed {
+    background: 0 0;
+}
+.wrap .account-order-detail.follow ul.checkout-bar li {
+    display: inline-block;
+    margin: 50px 0 0;
+    padding: 0;
+    width: 130px;
+}
+.wrap .account-order-detail.follow ul.checkout-bar li span {
+    display: block;
+    position: absolute;
+    bottom: 65px;
+    left: 0;
+}
+.wrap .account-order-detail.follow ul.checkout-bar li.completed:before {
+    background: #59a238;
+}
+.wrap .account-order-detail.follow ul.checkout-bar li.completed:after {
+    background-color: #59a238;
+    content: "";
+    height: 10px;
+    left: 2px;
+    position: absolute;
+    top: -50px;
+    width: 100%;
+}
+.wrap .account-order-detail.follow ul.checkout-bar li:before {
+    height: 16px;
+    left: 0;
+    line-height: 45px;
+    position: absolute;
+    top: -53px;
+    width: 16px;
+}
+.wrap .account-order-detail.follow ul.checkout-bar li:before {
+    background: #f1f1f1;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 1px 1px rgba(0,0,0,.2);
+    content: "";
+}
+.wrap .account-order-detail.follow ul.checkout-bar li.active:before {
+    background: #fff;
+    border: 4px solid #59a238;
+    height: 20px;
+    width: 20px;
+    top: -55px;
+    z-index: 1;
+}
+.wrap .account-order-detail.follow ul.checkout-bar li:before {
+    height: 16px;
+    left: 0;
+    line-height: 45px;
+    position: absolute;
+    top: -53px;
+    width: 16px;
+}
+a {
+    text-decoration: none;
+}

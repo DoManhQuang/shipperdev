@@ -1,0 +1,377 @@
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent;
+}
+body {
+    margin: 0;
+    min-height: 100%;
+    line-height: normal;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    background: #f4f4f4;
+    padding: 0!important;
+    font-size: 14px;
+    color: #333;
+    color: rgba(0,0,0,.65);
+}
+.tiki-account .wrap {
+    min-height: 500px;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+.tiki-account .container-full {
+    width: 1270px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+.tiki-account .wrap .row-style-1 {
+    background: 0 0;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+.tiki-account .content-right {
+    width: 975px;
+    float: left;
+    margin-left: 5px;
+    position: relative;
+}
+.tiki-account .wrap h1.have-margin {
+    margin-bottom: 15px;
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    color: #242424;
+}
+.tiki-account .wrap h1:after, .tiki-account .wrap h1:before {
+    display: table;
+    content: "";
+    clear: both;
+}
+b, strong {
+    font-weight: 500;
+}
+.tiki-account .content-right p.date {
+    position: absolute;
+    color: #242424;
+    top: 25px;
+    right: 0;
+    font-size: 13px;
+}
+.tiki-account .wrap .account-order-detail {
+    overflow: hidden;
+    font-size: 0;
+    margin-bottom: 20px;
+}
+.tiki-account .wrap .account-order-detail .note {
+    position: relative;
+    margin: 10px 0;
+    font-size: 13px;
+}
+.tiki-account .wrap .account-order-detail .note h3 {
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-family: Roboto;
+    text-transform: uppercase;
+    color: #242424;
+    font-size: 14px;
+}
+.tiki-account .wrap .account-order-detail .note div.ct {
+    padding: 10px;
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    line-height: 1.38;
+}
+.tiki-account .wrap .account-order-detail .note div.ct div.ct-row:first-child {
+    margin-top: 0;
+}
+.tiki-account .wrap .account-order-detail .note div.ct div.ct-row {
+    margin-top: 10px;
+    overflow: hidden;
+}
+.tiki-account .wrap .account-order-detail .note div.ct div {
+    font-size: 13px;
+    color: #242424;
+}
+.tiki-account .wrap .account-order-detail .note div.ct div.ct-left {
+    float: left;
+    width: 17%;
+}
+
+.tiki-account .wrap .account-order-detail .note div.ct div.ct-right {
+    float: right;
+    width: 83%;
+}
+.tiki-account .wrap .account-order-detail .address-1, .tiki-account .wrap .account-order-detail .address-2, .tiki-account .wrap .account-order-detail .other-1, .tiki-account .wrap .account-order-detail .other-2, .tiki-account .wrap .account-order-detail .payment-1, .tiki-account .wrap .account-order-detail .payment-2 {
+    width: 32.6%;
+    display: block;
+    vertical-align: top;
+    margin-top: 20px;
+    float: left;
+    margin-right: 1%;
+}
+.tiki-account .wrap .account-order-detail .address-1 h3, .tiki-account .wrap .account-order-detail .address-2 h3, .tiki-account .wrap .account-order-detail .other-1 h3, .tiki-account .wrap .account-order-detail .other-2 h3, .tiki-account .wrap .account-order-detail .payment-1 h3, .tiki-account .wrap .account-order-detail .payment-2 h3 {
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-family: Roboto;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #242424;
+}
+.tiki-account .wrap .account-order-detail .address-1>div, .tiki-account .wrap .account-order-detail .address-2>div, .tiki-account .wrap .account-order-detail .other-1>div, .tiki-account .wrap .account-order-detail .other-2>div, .tiki-account .wrap .account-order-detail .payment-1>div, .tiki-account .wrap .account-order-detail .payment-2>div {
+    padding: 5px 10px;
+    background: #fff;
+    border-radius: 4px;
+    min-height: 110px;
+    line-height: 1.38;
+}
+.tiki-account .wrap .account-order-detail .address-1 p.name, .tiki-account .wrap .account-order-detail .address-2 p.name, .tiki-account .wrap .account-order-detail .other-1 p.name, .tiki-account .wrap .account-order-detail .other-2 p.name, .tiki-account .wrap .account-order-detail .payment-1 p.name, .tiki-account .wrap .account-order-detail .payment-2 p.name {
+    font-weight: 500;
+    color: #242424;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.tiki-account .wrap .account-order-detail .address-1 p, .tiki-account .wrap .account-order-detail .address-2 p, .tiki-account .wrap .account-order-detail .other-1 p, .tiki-account .wrap .account-order-detail .other-2 p, .tiki-account .wrap .account-order-detail .payment-1 p, .tiki-account .wrap .account-order-detail .payment-2 p {
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.tiki-account .wrap p {
+    margin-top: 10px!important;
+
+}
+p {
+    margin: 0 0 10px;
+}
+.tiki-account .wrap .account-order-detail .address-1 p span, .tiki-account .wrap .account-order-detail .address-2 p span, .tiki-account .wrap .account-order-detail .other-1 p span, .tiki-account .wrap .account-order-detail .other-2 p span, .tiki-account .wrap .account-order-detail .payment-1 p span, .tiki-account .wrap .account-order-detail .payment-2 p span {
+    color: #4a4a4a;
+    font-weight: 300;
+}
+
+.tiki-account .wrap .account-order-detail .payment-2 {
+    margin-right: 0;
+}
+.tiki-account .wrap .account-order-detail .address-1 .failure_reason, .tiki-account .wrap .account-order-detail .address-2 .failure_reason, .tiki-account .wrap .account-order-detail .other-1 .failure_reason, .tiki-account .wrap .account-order-detail .other-2 .failure_reason, .tiki-account .wrap .account-order-detail .payment-1 .failure_reason, .tiki-account .wrap .account-order-detail .payment-2 .failure_reason {
+    color: #FDA223;
+    font-style: italic;
+}
+.tiki-account .wrap .dashboard-order table, .tiki-account .wrap .dashboard-order.have-margin {
+    margin-bottom: 0;
+}
+.tiki-account .wrap .dashboard-order {
+    font-size: 13px;
+    background: #fff;
+    border-radius: 4px;
+}
+.tiki-account .wrap .dashboard-order table.table-responsive-2 {
+    width: 100%;
+    color: #424242;
+    display: table;
+}
+table {
+    border-collapse: collapse;
+    background-color: transparent;
+    border-spacing: 0;
+}
+.tiki-account .wrap .dashboard-order table.table-responsive-2 thead {
+    display: table-header-group;
+}
+.tiki-account .wrap .dashboard-order table.table-responsive-2 thead tr {
+    display: table-row;
+}
+.tiki-account .wrap .dashboard-order table td, .tiki-account .wrap .dashboard-order table tr {
+    padding: 10px;
+}
+.tiki-account .wrap .dashboard-order table.table-responsive-2 thead tr th:first-child {
+    border-left: none;
+}
+.tiki-account .wrap .dashboard-order table.table-responsive-2 thead tr th {
+    display: table-cell;
+    padding: 20px 15px;
+    border-top: none;
+    min-width: 100px;
+}
+.tiki-account .wrap .dashboard-order table.table-responsive-2 thead tr th {
+    position: relative;
+    background: 0 0;
+    color: #787878;
+    font-size: 15px;
+    font-weight: 400;
+    border-bottom: 1px #f4f4f4 solid;
+}
+.tiki-account .wrap .dashboard-order table th {
+    background: #f4f4f4;
+    border-width: 1px;
+    font-weight: 500;
+}
+.tiki-account .wrap .dashboard-order table.table-responsive-2 tbody {
+    display: table-row-group;
+}
+.tiki-account .wrap .dashboard-order table.table-responsive-2 tbody tr {
+    border-bottom: 1px #f4f4f4 solid;
+}
+
+.tiki-account .wrap .dashboard-order table.table-responsive-2 tbody tr td:first-child {
+    border-top: none;
+    border-left: none;
+}
+.tiki-account .wrap .dashboard-order table.table-responsive-2 tbody tr td {
+    border: none;
+    position: relative;
+    display: table-cell;
+    padding: 20px 15px;
+    color: #242424;
+    vertical-align: top;
+    min-width: 100px;
+}
+.tiki-account .wrap .dashboard-order table.table-responsive-2 tbody tr td:last-child {
+    text-align: right;
+    min-width: 160px;
+}
+.tiki-account .wrap .dashboard-order table.table-responsive-2 tfoot {
+    display: table-row-group;
+}
+.tiki-account .wrap .dashboard-order table.table-responsive-2 tfoot tr {
+    display: table-row;
+    border-top: none;
+}
+
+.tiki-account .wrap .dashboard-order table.table-responsive-2 tfoot tr td, .tiki-account .wrap .dashboard-order table.table-responsive-2 tfoot tr td:first-child {
+    text-align: right;
+    border-top: none;
+}
+.tiki-account .wrap .dashboard-order table.table-responsive-2 tfoot tr:first-child td {
+    padding-top: 30px;
+}
+.tiki-account .wrap .dashboard-order table.table-responsive-2 tfoot tr td {
+    display: table-cell;
+    padding: 5px 20px;
+    max-width: 550px;
+    min-width: 125px;
+    color: #242424;
+}
+.tiki-account .wrap .dashboard-order table.table-responsive-2 tfoot tr td span.sum {
+    color: #ff3b27;
+    font-size: 18px;
+}
+.tiki-account .wrap .btn-simple {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    display: inline-block;
+    border: 1px solid transparent;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+[role=button], a, area, button, input:not([type=range]), label, select, summary, textarea {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
+a {
+    color: #1890ff;
+    background-color: transparent;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    -webkit-transition: color .3s;
+    transition: color .3s;
+    -webkit-text-decoration-skip: objects;
+}
+.tiki-account .wrap .btn-back {
+    margin-bottom: 30px;
+    background: #fdd835;
+    border-color: #fdd835;
+    color: #4a4a4a;
+    margin-top: 20px;
+    padding: 9px 12px;
+    width: 225px;
+}
+.btn-info {
+    background: #00b6f0;
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.tiki-account .wrap .dashboard-order table.table-responsive-2 tbody tr td img.thumb {
+    width: 60px;
+    float: left;
+    margin-right: 5px;
+}
+.img-responsive {
+    display: block;
+    height: auto;
+}
+.img-responsive, .img-thumbnail, .table, label {
+    max-width: 100%;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.tiki-account .wrap .dashboard-order table td a, .tiki-account .wrap .dashboard-order table tr a {
+    color: #007ff0;
+}
+.product-info .btn {
+    margin-right: 10px;
+    background: #fff;
+    border: 1px solid #189eff;
+    font-size: 12px;
+    color: #189eff!important;
+    padding: 5px 15px;
+    width: 99px;
+    border-radius: 4px;
+}
+.product-info .btn:hover {
+    background: #189eff;
+    border: 1px solid #189eff;
+    color: #fff!important;
+}
+p.ncc {
+    margin: 5px 0;
+    font-size: 11px;
+}
+.tiki-account .wrap .dashboard-order table td a.name, .tiki-account .wrap .dashboard-order table tr a.name {
+    font-size: 14px;
+    color: #242424;
+}
+.tiki-account .wrap .dashboard-order table.table-responsive-2 tfoot tr:last-child td {
+    padding-bottom: 30px;
+}
+a:active, a:hover {
+    outline: 0;
+    text-decoration: none;
+}
+a:hover {
+    color: #40a9ff;
+}
+b, strong {
+    font-weight: bolder;
+}
