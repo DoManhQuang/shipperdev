@@ -1,0 +1,35 @@
+.trai{
+	padding: 0;
+}
+.trai ul{
+	padding: 0;
+}
+.trai ul li{
+	padding: 0;
+}
+.trai ul li a{
+	font-size: 16px;
+	width: 100%;
+    margin: 20px 0;
+}
+/*end trai*/
+
+ .giua{
+ 	font-size: 13px;
+ }
+ .giua table button{
+ 	font-size: 13px;
+ }
+ .giua .tong label{
+ 	margin: 0 10px;
+ }
+ .giua {}
+ /*end giua*/
+
+.phai{
+	padding: 0;
+}
+.phai{}
+.phai table{
+	font-size: 13px;
+}
