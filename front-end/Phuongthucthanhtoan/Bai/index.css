@@ -1,0 +1,194 @@
+* {
+	font-family: 'Time New..'
+	font-size: 12px;
+}
+.dot1 {
+	margin-left: 62px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	background-color: red;	
+	border-radius: 50%;
+	text-align: center;	
+	vertical-align: middle;
+	align-items: center;
+	float: left;
+	position: relative;
+}
+.step1 span {
+	margin-left: -60px;
+}
+
+.step3 span {
+	margin-left: 50px;
+}
+
+.dong1 {
+	width: 146.1px;
+	height: 6px !important;
+	float: left;
+	position: absolute;
+	height: 10px;	
+	right: 0;
+	top : 65%;
+}
+.dot2{
+	z-index: 1;
+	margin-left: 100px;
+}
+.dong2 {
+	width: 292px;
+	height: 6px !important;
+	float: left;
+	position: absolute;
+	height: 10px;	
+	right: 0;
+	top : 65%;
+}
+.dong3 {
+	width: 146.1px;
+	height: 6px !important;
+	float: left;
+	position: absolute;
+	height: 10px;	
+	left: 0;
+	top : 65%;
+}
+.dot3 {
+	float: right;
+	margin-right: 70px;
+}
+.duongvien {
+	box-shadow: 3px;
+	border-bottom: 1px solid #B2A7A7;
+	display: block;
+}
+
+h4{
+	color: #9B8C8C !important;
+	font-weight: bold !important;
+	font-size: 20px !important;
+}
+
+.giaohang {
+	box-shadow: 5px;
+	border : 1px solid #A6A5A5;
+	height: 200px;
+	border-radius: 4px;
+}
+
+.bang {
+	border: 1px solid #C6C1C1;
+	box-shadow: 3px;
+	border-radius: 3px;
+}
+
+.bang2 {
+	width: 95%;
+}
+.cot1 {
+	position: relative;
+}
+
+.a {
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.divtrai {
+	border: 1px solid #C6C1C1;
+	box-shadow: 3px;
+	border-radius: 3px;
+	padding: 10px;
+	line-height: 16px;
+}
+.divtrai button {
+	float: right;
+}
+
+.bang2 {
+	font-size: 14px;
+}
+.chuvang {
+	color: #FFAE00;
+	font-size: 12px;
+}
+.chu1 {
+	cursor:not-allowed ;
+}
+
+input[type=checkbox]
+{
+	transform: scale(1.5);
+	padding: 5px;
+	color: blue;
+	cursor: pointer;
+	background: #3A50C0;
+	box-shadow: 
+	0 3px 5px rgba(0,0,0,0.25),
+	inset 0 1px 0 rgba(255,255,255,0.3),
+	inset 0 -5px 5px rgba(100,100,100,0.1),
+	inset 0 5px 5px rgba(255,255,255,0.3);
+}
+input[type=radio]:checked,input[type=checkbox]:checked
+{
+	color: blue;
+	cursor: pointer;
+	background: #25d025; /* Fallback */
+	background: radial-gradient(40% 35%, #FFFFFF, #E81C1C 60%);
+	box-shadow:
+	inset 0 3px 5px 1px rgba(0,0,0,0.1),
+	0 1px 0 rgba(255,255,255,0.4),
+	0 0 10px 2px rgba(0, 210, 0, 0.5);
+}
+input[type=radio]
+{
+	transform: scale(1.5);
+	color: blue;
+	cursor: pointer;
+
+}
+
+.p02,.p04 {
+	display: none;
+}
+
+.buttondatmua {
+	width: 360px;
+	height: 50px;
+	font-size: 18px;
+	color: #fff;
+	border: none;
+	outline-color: #ccc;
+	background: -webkit-gradient(linear,left top,left bottom,from(#ef3959),to(#d72041));
+	background: linear-gradient(#ef3959,#d72041);
+	
+	border-radius: 3px;
+}
+
+.buttondatmua:hover {
+	opacity: 0.9;
+	transistion: all .5s linear;
+	background: -webkit-gradient(linear,left top,left bottom,from(#),to(#d72041));
+	background: linear-gradient(#ef3959,#d72041);
+}
+
+.Thevisa img {
+	/*	*/
+	margin: 2px;
+
+}
+@media screen and (max-width: 576px) {
+	.cc:after,.cc:before {
+		content: '<-';
+	}
+	.colnho {
+		width: 100%;
+	}
+	.Thevisa {
+		margin-left: 10px;
+	}
+}
+
+

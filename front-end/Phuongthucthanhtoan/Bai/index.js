@@ -1,0 +1,11 @@
+    $(document).ready(function(){
+      $(".chuoi1").click(function(){
+        $(".chuoi2").toggle(1000);
+      });
+       $(".p01").click(function(){
+        $(".p02").toggle(500);
+      });
+         $(".p03").click(function(){
+        $(".p04").toggle(500);
+      });
+    });
